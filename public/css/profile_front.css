@@ -2,6 +2,10 @@ body {
   color: #000;
 }
 
+.container a {
+  margin: 20px;
+}
+
 .header .logo {
   width: 120px;
   height: 82px;
@@ -26,7 +30,7 @@ body {
 }
 
 .headline .caption .body {
-  font-size: 1.8em;
+  font-size: 0.8em;
 }
 
 .posts .post .date {

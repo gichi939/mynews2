@@ -2,6 +2,10 @@
 
 @section('content')
     <div class="container">
+        <div class="col-md-4">
+            <a href="https://protected-oasis-47470.herokuapp.com/register" role="button" class="btn btn-primary">新規登録</a>
+            <a href="{{ action('Admin\NewsController@add') }}" role="button" class="btn btn-primary">新規作成</a>
+        </div>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
